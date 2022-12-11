@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: trnscrbr-auth-server
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/trnscrbr_auth
+    username: trnscrbr_auth_user
+    password: trnscrbr_auth_user
+
+  flyway:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/trnscrbr_auth
+    user: trnscrbr_auth_user
+    password: trnscrbr_auth_user
